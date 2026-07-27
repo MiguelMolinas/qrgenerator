@@ -1,23 +1,17 @@
 {
-  "name": "qr generator",
+  "name": "qrgenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generador de Códigos QR Avanzado",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.3.0",
-      "onFail": "download"
-    }
-  },
-  "type": "module",
   "devDependencies": {
     "vite": "^8.1.5"
   },
